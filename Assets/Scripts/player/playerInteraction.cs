@@ -54,4 +54,8 @@ public class playerInteraction : MonoBehaviour
         }
         return null;
     }
+    public void takeWeapon()
+    {
+
+    }
 }

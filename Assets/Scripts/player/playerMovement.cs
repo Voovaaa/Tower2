@@ -6,6 +6,7 @@ public class playerMovement : MonoBehaviour
 {
     public float moveSpeed;
     public float gravity;
+    public float sprintSpeedMultiplyer;
 
     CharacterController controller;
     float moveForward;
@@ -24,6 +25,11 @@ public class playerMovement : MonoBehaviour
         moveForward = Input.GetAxis("Vertical");
         moveSideway = Input.GetAxis("Horizontal");
         moveTo = transform.forward * moveForward + transform.right * moveSideway + transform.up * gravity * -1;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveTo *= sprintSpeedMultiplyer;
+        }
         controller.Move(moveTo * Time.deltaTime * moveSpeed);
+        
     }
 }

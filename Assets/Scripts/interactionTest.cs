@@ -11,6 +11,7 @@ public class interactionTest : MonoBehaviour, IInteractable
 
     private void Start()
     {
+        saveLogic.loadData();
         textWindow = transform.Find("dialogue UI").Find("text window").gameObject;
         textWindow.transform.Find("text").GetComponent<TMP_Text>().text = replics[0];
     }
