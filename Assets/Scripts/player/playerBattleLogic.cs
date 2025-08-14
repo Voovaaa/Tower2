@@ -5,10 +5,11 @@ public class playerBattleLogic : MonoBehaviour
 {
     public GameObject currentWeapon;
     public KeyCode attackKey = KeyCode.Mouse0;
-    public float attackPointOffset;
-    public float attackRadius;
 
 
+    float attackPointOffset;
+    float attackRadius;
+    float damage;
     float attackAnimationTime = 1f;
     float attackAnimaionTimeLeft;
     List<GameObject> attackableObjects = new List<GameObject>();
@@ -16,38 +17,59 @@ public class playerBattleLogic : MonoBehaviour
 
     private void Start()
     {
-        weaponAnimator = currentWeapon.GetComponent<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
-        setAttackAnimationTime();        
-    }
-    private void setAttackAnimationTime()
-    {
-        foreach (AnimationClip animationClip in weaponAnimator.runtimeAnimatorController.animationClips)
-        {
-            if (animationClip.name == "sword attack")
-            {
-                attackAnimationTime = animationClip.averageDuration;
-                break;
-            }
-        }
+        setBattleValues();
     }
     private void Update()
     {
         attackableObjects = getAttackableObjects();
         attackAnimaionTimeLeft -= Time.deltaTime;
-        if (Input.GetKeyDown(attackKey) && attackAnimaionTimeLeft <= 0 && attackableObjects != null)
+        if (Input.GetKeyDown(attackKey) && attackAnimaionTimeLeft <= 0)
         {
-            attack(attackableObjects);
+            attackAnimaionTimeLeft = attackAnimationTime;
+            weaponAnimator.SetTrigger("attack");
+            if (attackableObjects != null)
+            {
+                attack(attackableObjects);
+            }
+        }
+
+    }
+    public void setBattleValues()
+    {
+        currentWeapon = gameLogic.playerData.currentWeapon.gameObject;
+        weaponAnimator = currentWeapon.GetComponent<Animator>();
+        setAttackAnimationTime();
+        setAttackDamage();
+        setAttackRange();
+    }
+    private void setAttackAnimationTime()
+    {
+        foreach (AnimationClip animationClip in weaponAnimator.runtimeAnimatorController.animationClips)
+        {
+            if (animationClip.name == "attack")
+            {
+                attackAnimationTime = animationClip.averageDuration * gameLogic.playerData.currentWeapon.attackSpeed;
+                break;
+            }
         }
     }
+    private void setAttackDamage()
+    {
+        damage = gameLogic.playerData.baseDamage + gameLogic.playerData.currentWeapon.damage;
+    }
+    private void setAttackRange() // 0.5f - width of player collider
+    {
+        attackPointOffset = gameLogic.playerData.currentWeapon.attackRange + 0.5f;
+        attackRadius = attackPointOffset - 0.5f;
+    }
+    
 
     private void attack(List<GameObject> objectsToAttack)
     {
-        attackAnimaionTimeLeft = attackAnimationTime;
-        weaponAnimator.SetTrigger("attack");
         foreach(GameObject objectToAttack in objectsToAttack)
         {
-            objectToAttack.GetComponent<IAttackable>().gotDamage(1f);
+            objectToAttack.GetComponent<IAttackable>().gotDamage(damage);
         }
     }
     private List<GameObject> getAttackableObjects()
