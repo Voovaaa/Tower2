@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "D:\\programs\\unityProjs\\Tower2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerbattlelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerbattlelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\savelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|d:\\programs\\unityprojs\\tower2\\assets\\scripts\\savelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerbattlelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerbattlelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerlvlsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerlvlsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\skillsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skillsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|d:\\programs\\unityprojs\\tower2\\assets\\scripts\\player\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\interactiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playeradditionalinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeradditionalinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\datatosave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datatosave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\interactiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\player\\cameralogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\cameralogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|D:\\programs\\unityProjs\\Tower2\\assets\\scripts\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36988C9E-5AFD-8BAA-4C7A-0FC441F5F6BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,122 +70,180 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "gameLogic.cs",
               "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\gameLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\gameLogic.cs",
               "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\gameLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\gameLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T09:35:01.704Z",
+              "WhenOpened": "2025-08-15T06:28:49.064Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "saveLogic.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\saveLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\saveLogic.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\saveLogic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\saveLogic.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T08:57:36.101Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "playerBattleLogic.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerBattleLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerBattleLogic.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerBattleLogic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\player\\playerBattleLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:09:59.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "playerInteraction.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerInteraction.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\player\\playerInteraction.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:45:10.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "enemyLogic.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\enemyLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyLogic.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\enemyLogic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\enemyLogic.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFwAAAAzAAAAAAAAAA==",
+              "Title": "saveLogic.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\saveLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\saveLogic.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\saveLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\saveLogic.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:12:54.683Z",
+              "WhenOpened": "2025-08-16T10:37:33.219Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "playerLvlSystem.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerLvlSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerLvlSystem.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerLvlSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\playerLvlSystem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T10:39:02.654Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerData.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\PlayerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T07:58:38.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "interactionTest.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\interactionTest.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\interactionTest.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\interactionTest.cs",
-              "RelativeToolTip": "Assets\\Scripts\\interactionTest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T07:46:14.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "dataToSave.cs",
               "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\dataToSave.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\dataToSave.cs",
               "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\dataToSave.cs",
               "RelativeToolTip": "Assets\\Scripts\\dataToSave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T08:56:11.259Z",
+              "WhenOpened": "2025-08-23T06:58:25.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "skillsMenu.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\skillsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skillsMenu.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\skillsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skillsMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T06:54:18.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "playerAdditionalInputs.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerAdditionalInputs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerAdditionalInputs.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerAdditionalInputs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\playerAdditionalInputs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:33:11.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "cameraLogic.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\cameraLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\cameraLogic.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\cameraLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\cameraLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:59:00.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "playerMovement.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerMovement.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\playerMovement.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:48:44.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "weapon.cs",
-              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\weapon.cs",
-              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\weapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\weapon.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAxAAAAAAAAAA==",
+              "Title": "playerBattleLogic.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerBattleLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerBattleLogic.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerBattleLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\playerBattleLogic.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA9wC0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T07:24:53.144Z",
+              "WhenOpened": "2025-08-19T09:21:31.021Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "hpBar.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\hpBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\hpBar.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\hpBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\hpBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:11:52.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerData.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T10:37:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "playerInteraction.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\playerInteraction.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\player\\playerInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\playerInteraction.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:47:35.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InteractionTest.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\InteractionTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionTest.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\InteractionTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractionTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:32:15.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "enemyLogic.cs",
+              "DocumentMoniker": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\enemyLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyLogic.cs",
+              "ToolTip": "D:\\programs\\unityProjs\\Tower2\\Assets\\Scripts\\enemyLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyLogic.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:29:54.89Z"
             }
           ]
         }

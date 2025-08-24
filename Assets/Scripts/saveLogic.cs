@@ -29,7 +29,18 @@ public class saveLogic : MonoBehaviour
         playerData.currentHp = 10;
         playerData.baseDamage = 1;
         playerData.baseArmor = 0;
-        playerData.currentWeapon = GameObject.Find("player").transform.Find("camera").transform.Find("weapon").transform.Find("sword").GetComponent<weapon>();
+        playerData.currentWeapon = GameObject.Find("player").transform.Find("camera").transform.Find("weapon").transform.Find("sword").GetComponent<weapon>(); // !
+        playerLvlSystem lvlSystem = new playerLvlSystem();
+        lvlSystem.mainLvl = 1;
+        lvlSystem.enduranceLvl = 1;
+        lvlSystem.agilityLvl = 1;
+        lvlSystem.strengthLvl = 1;
+        lvlSystem.mainExperience = 0;
+        lvlSystem.enduranceExperience = 0;
+        lvlSystem.agilityExperience = 0;
+        lvlSystem.strengthExperience = 0;
+        lvlSystem.initialize();
+        gameLogic.data.lvlSystem = lvlSystem;
         gameLogic.data.playerData = playerData;
         
     }

@@ -7,7 +7,7 @@ public class enemyLogic : MonoBehaviour, IAttackable
     public float currentHp;
     public float damage;
     public float moveSpeed;
-    public float attackSpeed;
+    public float attackCooldownMax;
     public float attackCooldown;
     public float agressiveRadius;
     public float attackRadius;
@@ -28,7 +28,6 @@ public class enemyLogic : MonoBehaviour, IAttackable
         animator = model.GetComponent<Animator>();
         disablingPhysicsDelay = 10f;
         currentHp = maxHp;
-        attackCooldown = 0;
         navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("player");
         particles = GetComponent<ParticleSystem>();
@@ -46,9 +45,12 @@ public class enemyLogic : MonoBehaviour, IAttackable
     public void AIAction()
     {
         if (!isAiActive) { return; }
-        if (Vector3.Distance(player.transform.position, transform.position) <= attackRadius && attackCooldown <= 0)
+        if (Vector3.Distance(player.transform.position, transform.position) <= attackRadius)
         {
             animator.SetBool("walking", false);
+            navMeshAgent.isStopped = true;
+            transform.LookAt(player.transform.position);
+            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
             attack();
         }
         else if(Vector3.Distance(player.transform.position, transform.position) <= agressiveRadius)
@@ -69,9 +71,11 @@ public class enemyLogic : MonoBehaviour, IAttackable
     }
     public void attack()
     {
-        navMeshAgent.isStopped = true;
-        transform.LookAt(player.transform.position);
-        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0); 
+        if (attackCooldown <= 0)
+        {
+            gameLogic.player.GetComponent<playerBattleLogic>().gotDamage(damage);
+            attackCooldown = attackCooldownMax;
+        }
     }
 
     public void gotDamage(float damage)
@@ -92,6 +96,7 @@ public class enemyLogic : MonoBehaviour, IAttackable
         navMeshAgent.enabled = false;
         rb.constraints = RigidbodyConstraints.None;
         Invoke("disablePhysics", disablingPhysicsDelay);
+        transform.GetComponent<CapsuleCollider>().isTrigger = false;
     }
     public void disablePhysics()
     {

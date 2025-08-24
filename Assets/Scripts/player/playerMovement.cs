@@ -30,6 +30,9 @@ public class playerMovement : MonoBehaviour
             moveTo *= sprintSpeedMultiplyer;
         }
         controller.Move(moveTo * Time.deltaTime * moveSpeed);
-        
+    }
+    public void setMoveSpeed()
+    {
+        moveSpeed = 3 + gameLogic.data.lvlSystem.agilityLvl * 0.5f;
     }
 }

@@ -28,6 +28,7 @@ public class playerBattleLogic : MonoBehaviour
         {
             attackAnimaionTimeLeft = attackAnimationTime;
             weaponAnimator.SetTrigger("attack");
+            gameLogic.data.lvlSystem.getAgilityExperience(1f);
             if (attackableObjects != null)
             {
                 attack(attackableObjects);
@@ -42,6 +43,7 @@ public class playerBattleLogic : MonoBehaviour
         setAttackAnimationTime();
         setAttackDamage();
         setAttackRange();
+        setMaxHp();
     }
     private void setAttackAnimationTime()
     {
@@ -49,7 +51,7 @@ public class playerBattleLogic : MonoBehaviour
         {
             if (animationClip.name == "attack")
             {
-                attackAnimationTime = animationClip.averageDuration * gameLogic.playerData.currentWeapon.attackSpeed;
+                attackAnimationTime = animationClip.averageDuration * gameLogic.playerData.currentWeapon.attackSpeed - gameLogic.data.lvlSystem.agilityLvl / 100;
                 break;
             }
         }
@@ -63,6 +65,10 @@ public class playerBattleLogic : MonoBehaviour
         attackPointOffset = gameLogic.playerData.currentWeapon.attackRange + 0.5f;
         attackRadius = attackPointOffset - 0.5f;
     }
+    private void setMaxHp()
+    {
+        gameLogic.playerData.maxHp = gameLogic.data.lvlSystem.enduranceLvl * 2 + 10;
+    }
     
 
     private void attack(List<GameObject> objectsToAttack)
@@ -70,6 +76,7 @@ public class playerBattleLogic : MonoBehaviour
         foreach(GameObject objectToAttack in objectsToAttack)
         {
             objectToAttack.GetComponent<IAttackable>().gotDamage(damage);
+            gameLogic.data.lvlSystem.getStrengthExperience(damage);
         }
     }
     private List<GameObject> getAttackableObjects()
@@ -94,5 +101,24 @@ public class playerBattleLogic : MonoBehaviour
             return null;
         }
 
+    }
+    public void gotDamage(float damageGot)
+    {
+        gameLogic.playerData.currentHp -= damageGot;
+        gameLogic.data.lvlSystem.getEnduranceExperience(damageGot);
+        if (gameLogic.playerData.currentHp <= 0)
+        {
+            die();
+        }
+    }
+    public void die()
+    {
+        transform.GetComponent<playerInteraction>().enabled = false;
+        transform.GetComponent<playerBattleLogic>().enabled = false;
+        transform.GetComponent<CharacterController>().enabled = false;
+        transform.Find("camera").GetComponent<cameraLogic>().enabled = false;
+        transform.Rotate(-1f, transform.rotation.y, transform.rotation.z);
+        transform.GetComponent<CapsuleCollider>().isTrigger = false;
+        transform.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
 }

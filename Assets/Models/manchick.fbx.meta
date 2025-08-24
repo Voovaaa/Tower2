@@ -16,8 +16,7 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'LeftUpperLeg' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -25,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -83,127 +82,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: manchick(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Armature
-      parentName: manchick(Clone)
-      position: {x: -0.065964475, y: -0.23782118, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-      scale: {x: 100, y: 100, z: 100}
-    - name: upperChest
-      parentName: Armature
-      position: {x: -0, y: 0, z: 0.007491615}
-      rotation: {x: 0.7071069, y: -0.0000000041875112, z: -0.0000000063492003, w: 0.70710665}
-      scale: {x: 1, y: 1, z: 1}
-    - name: head
-      parentName: upperChest
-      position: {x: -0, y: 0.0047076517, z: 0}
-      rotation: {x: -0.016156226, y: -0.0020858475, z: -0.021447778, w: 0.99963725}
-      scale: {x: 1, y: 1, z: 0.9999999}
-    - name: head_end
-      parentName: head
-      position: {x: -0, y: 0.0064583845, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: upperArmLeft
-      parentName: upperChest
-      position: {x: -0, y: 0.0047076517, z: 0}
-      rotation: {x: -0.026309164, y: 0.027124558, z: 0.7342268, w: 0.67785186}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
-    - name: lowerArmLeft
-      parentName: upperArmLeft
-      position: {x: 3.1315722e-10, y: 0.008598056, z: -4.4237822e-11}
-      rotation: {x: 0.0017676634, y: -0.0419813, z: -0.05867055, w: 0.9973927}
-      scale: {x: 1, y: 1.0000002, z: 0.9999999}
-    - name: handLeft
-      parentName: lowerArmLeft
-      position: {x: 5.563925e-10, y: 0.008694976, z: 9.3132255e-12}
-      rotation: {x: -0.0010263657, y: 0.000000018626451, z: -0.04684455, w: 0.99890167}
-      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
-    - name: handLeft_end
-      parentName: handLeft
-      position: {x: -0, y: 0.004637227, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: upperArmRight
-      parentName: upperChest
-      position: {x: -0, y: 0.0047076517, z: 0}
-      rotation: {x: -0.043512825, y: -0.034353167, z: -0.73337084, w: 0.67756456}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-    - name: LowerArmRight
-      parentName: upperArmRight
-      position: {x: -0.0000000010721851, y: 0.00757626, z: 1.3038516e-10}
-      rotation: {x: 0.0018990971, y: 0.046440337, z: 0.0722411, w: 0.9963036}
-      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
-    - name: HandRight
-      parentName: LowerArmRight
-      position: {x: 3.7252902e-11, y: 0.009933696, z: -3.7252902e-11}
-      rotation: {x: -0.0025644188, y: 0.00000013038516, z: 0.02869645, w: 0.999585}
-      scale: {x: 1.0000004, y: 1.0000004, z: 1}
-    - name: HandRight_end
-      parentName: HandRight
-      position: {x: -0, y: 0.004881237, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: middleChest
-      parentName: Armature
-      position: {x: -0, y: 0, z: 0.007491615}
-      rotation: {x: 0.6908658, y: -0.14542702, z: 0.10088952, w: -0.70098275}
-      scale: {x: 1, y: 0.9999999, z: 1.0000001}
-    - name: lowerChest
-      parentName: middleChest
-      position: {x: 3.7252902e-11, y: 0.0059432546, z: 4.9476512e-12}
-      rotation: {x: -0.057820052, y: -0.0032373816, z: 0.015780836, w: 0.9981971}
-      scale: {x: 1, y: 1.0000001, z: 1}
-    - name: rightUpperLeg
-      parentName: lowerChest
-      position: {x: 0.0018773706, y: 0.003160647, z: 0.0007690136}
-      rotation: {x: 0.07636306, y: -0.00938147, z: -0.15913796, w: 0.984254}
-      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
-    - name: rightlowerLeg
-      parentName: rightUpperLeg
-      position: {x: -3.5390257e-10, y: 0.008599215, z: -7.4505804e-11}
-      rotation: {x: -0.024789471, y: -0.00000013038515, z: 0.20274812, w: 0.9789171}
-      scale: {x: 0.9999999, y: 1.0000012, z: 1.0000007}
-    - name: rightFoot
-      parentName: rightlowerLeg
-      position: {x: -2.561137e-10, y: 0.009014097, z: -1.6763806e-10}
-      rotation: {x: -0.5367565, y: 0.041331444, z: -0.1912267, w: 0.8207415}
-      scale: {x: 1.0000001, y: 0.9999994, z: 0.99999976}
-    - name: rightFoot_end
-      parentName: rightFoot
-      position: {x: -0, y: 0.004193401, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: leftUpperLeg
-      parentName: lowerChest
-      position: {x: -0.0013476647, y: 0.0031351347, z: -0.00045144188}
-      rotation: {x: 0.012553006, y: 0.003490765, z: 0.10245673, w: 0.99465215}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
-    - name: leftLowerLeg
-      parentName: leftUpperLeg
-      position: {x: -2.1187588e-10, y: 0.008695543, z: -2.7939677e-11}
-      rotation: {x: 0.03497346, y: 0.00001807953, z: -0.09504454, w: 0.9948585}
-      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000007}
-    - name: leftFoot
-      parentName: leftLowerLeg
-      position: {x: 1.3271347e-10, y: 0.0096532, z: -8.381903e-11}
-      rotation: {x: -0.62563646, y: 0.000000056362282, z: -0.23426346, w: 0.74411}
-      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999998}
-    - name: leftFoot_end
-      parentName: leftFoot
-      position: {x: -0, y: 0.003519351, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Cylinder.001
-      parentName: manchick(Clone)
-      position: {x: -0.30537933, y: -0.854414, z: -0.000000029802322}
-      rotation: {x: -0.7029339, y: 0.07670623, z: -0.07670623, w: 0.702934}
-      scale: {x: 20, y: 20, z: 50}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -212,15 +91,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: middleChest
+    rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

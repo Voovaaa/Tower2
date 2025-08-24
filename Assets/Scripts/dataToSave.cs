@@ -7,5 +7,5 @@ using UnityEngine;
 public class dataToSave
 {
     public PlayerData playerData;
-    public static bool initialized;
+    public playerLvlSystem lvlSystem;
 }

@@ -8,7 +8,7 @@ public class playerInteraction : MonoBehaviour
     public float interactionOffset;
     public float interactionRange;
     public string interactionTagName = "Interactable object";
-    public string interactButton = "e";
+    public string interactKey = "e";
 
     public static GameObject crosshairs;
     public static GameObject crosshairAttack;
@@ -18,9 +18,9 @@ public class playerInteraction : MonoBehaviour
     GameObject objectToInteract;
     GameObject previousObjectToInteract;
 
-    private void Start()
+    public void initialize()
     {
-        crosshairs = transform.Find("UI").transform.Find("crosshairs").gameObject;
+        crosshairs = transform.Find("crosshairsUI").transform.Find("crosshairs").gameObject;
         crosshairAttack = crosshairs.transform.Find("attack").gameObject;
         crosshairInteract = crosshairs.transform.Find("interact").gameObject;
         crosshairNpc = crosshairs.transform.Find("npc").gameObject;
@@ -32,7 +32,7 @@ public class playerInteraction : MonoBehaviour
         {
             objectToInteract.GetComponent<IInteractable>().showed();
             previousObjectToInteract = objectToInteract;
-            if (Input.GetKeyDown(interactButton))
+            if (Input.GetKeyDown(interactKey))
             {
                 objectToInteract.GetComponent<IInteractable>().onInteract();
             }
@@ -53,9 +53,5 @@ public class playerInteraction : MonoBehaviour
             }
         }
         return null;
-    }
-    public void takeWeapon()
-    {
-
     }
 }
